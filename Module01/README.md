@@ -1,9 +1,11 @@
 # Задание для модуля 1
 Результаты домашней работы загружайте к себе в git репозиторий. 
 
+1. Создаем аккаунт в GitHub и репозиторий для обучения на курсе DataLearn.
+
 1. Создаем папки для Лабораторных работ по формату **DE-101/Module1/** для сохранения результатов.
 
-1. Создаем аккаунт в GitHub
+![Репозиторий highscreee/de-101 создан.](https://github.com/highscreen/DE-101/blob/master/Module01/github_repo.png)
 
 1. Пройти [Видео-курс по Git на русском](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb).
 

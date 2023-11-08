@@ -20,19 +20,15 @@
 
 7. Изучен базовый синтаксис MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/), резульат Лабоработной работы оформлен в файле readme.md.
 
-## Часть №2
-
-### Архитектура Аналитического Решения
+## Часть №2 Архитектура Аналитического Решения
 
 1. Скачан и установлен Draw.io по [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20install%20drawio.md).
-
 
 1. Создана диаграмма аналитического решения.
 ![Диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
 
-## Часть №3
+## Часть №3 Аналитика в Excel
 
-### Аналитика в Excel
 1. Используя данные Sample - Superstore.xls собран дашборд по продажам
 
 ![Dashboard по продажам.](https://github.com/highscreen/DE-101/blob/master/Module01/supersale_dashboard.png)

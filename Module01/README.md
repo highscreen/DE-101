@@ -33,10 +33,8 @@
 ## Часть №3
 
 ### Аналитика в Excel
-1. Используя данные Sample - Superstore.xls собран 
+1. Используя данные Sample - Superstore.xls собран дашборд по продажам
 
 ![Dashboard по продажам.](https://github.com/highscreen/DE-101/blob/master/Module01/supersale_dashboard.png)
 
-1. Механизм построения можно оценить по исходному файлу:
-
-![Superstore_dashboard_lab](https://github.com/highscreen/DE-101/blob/master/Module01/Superstore_dashboard_lab.xslx)
+1. Механизм построения можно оценить по исходному файлу [Superstore_dashboard_lab.xslx >>](https://github.com/highscreen/DE-101/blob/master/Module01/Superstore_dashboard_lab.xslx)

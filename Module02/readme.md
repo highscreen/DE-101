@@ -4,11 +4,11 @@
 
 ### Часть 1: Основы баз данных
 
-1. Изучена серия видео-роликов по [Модулю №2](https://www.youtube.com/watch?v=GFgKx4XodMU&list=PLkcP_moW_BpOQUmtgSaw3XswlpeO5RYgA)
+1. Изучена серия видео-роликов по [Модулю №2 DataLearn](https://www.youtube.com/watch?v=GFgKx4XodMU&list=PLkcP_moW_BpOQUmtgSaw3XswlpeO5RYgA)
 
-1. Пройден курс по Введению в базы данных [Введение в Базы Данных](https://stepik.org/course/551/)
+1. Пройден курс по Введению в базы данных на [Stepik.org](https://stepik.org/course/551/)
 
-1. Прочитана статья [Хранилище данных vs Озеро Данных](https://habr.com/ru/post/485180/)
+1. Прочитана статья "Хранилище данных vs Озеро Данных" на [HABR](https://habr.com/ru/post/485180/)
 
 1. Пройден курс Проектирование баз данных на [Stepik.org](https://stepik.org/course/51675/syllabus)
 

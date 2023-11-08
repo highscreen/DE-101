@@ -2,100 +2,40 @@
 
 ## Часть №1
 
-1. Создаем аккаунт в GitHub и репозиторий для обучения на курсе DataLearn.
+1. Создан аккаунт в GitHub и репозиторий для обучения на курсе DataLearn.
 
-2. Создаем папки для Лабораторных работ по формату **DE-101/Module1/** для сохранения результатов.
+2. Созданы папки для Лабораторных работ по формату **DE-101/Module1/** для сохранения результатов.
 
 ![Репозиторий highscreee/de-101 создан.](https://github.com/highscreen/DE-101/blob/master/Module01/github_repo.png)
 
-3. Пройти [Видео-курс по Git на русском](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb).
+3. Пройден [Видео-курс по Git на русском](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb).
 
-4. Если вы не работали с командной строкой, то пройдите это курс [introduction into Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science). Не обязательно понимать, что такое Shell/bash. Это для нас просто инструмент для навигации и запуска приложений/команд, когда нет GUI (графического интерфейса). Мы будем использовать командную строку для управления Git и для работы с облаком.
+4. С командной строкой уже знакома по [курсу Linux на Stepik.org](https://stepik.org/course/73/syllabus).
 
-5. Устанавливаем Visual Studio Code с официального сайта и клонируем свой репозиторий на локальную машину по этой [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20get%20git.md)
+5. Устанавлен Visual Studio Code с официального сайта и склонирован собственный репозиторий на локальную машину по этой [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20get%20git.md)
 
-6. Результаты домашней работы загружаем к себе в git репозиторий, по окончанию курса все лабы будут проверены создателем курса перед выдачей диплома. 
+6. Результаты домашней работы загружены к git репозиторий. 
 
-6. Клонируем репозиторий Datalearn со всеми Лабораторными работами в соседнюю папку, чтобы делать домашки без подключения к интернету.
+6. Склонирован репозиторий Datalearn со всеми Лабораторными работами в соседнюю папку, чтобы делать домашки без подключения к интернету.
 
-7. Читаем про MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/) и оформляем результаты Лабораторной работы в файле readme.md.
+7. Изучен базовый синтаксис про MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/), резульат Лабоработной работы оформлен в файле readme.md.
 
 ## Часть №2
 
 ### Архитектура Аналитического Решения
-Необходимо нарисовать верхнеуровневую архитектуру аналитического решения по примеру теоретического видео, где я рассказывал об архитектуре ламоды. Необходимо использовать:
 
-Source Layer - слой источников данных
-Storage Layer - слой хранения данных
-Business Layer - слой для доступа к данным бизнес пользователей
-Необходимо использовать draw.io, Microsoft Visio Studio, Power Point или инструмент на выбор.
-
-Здесь вы можете найти [инструкции по установке draw.io](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20install%20drawio.md).
+1. Скачан и установлен Draw.io по [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20install%20drawio.md).
 
 
-![Диаграмма аналитического решения создана.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
+1. !Создана диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
 
 ## Часть №3
 
 ### Аналитика в Excel
-Используя данные Sample - Superstore.xls сделать:
+1. Используя данные Sample - Superstore.xls собран 
 
-+ Использовать Lookup
-+ Построить Сводную таблицу
-+ Построить примеры отчетов
-+ Создать дашборд
-+ И другая функциональность Excel на ваш выбор.
+![Dashboard по продажам.](https://github.com/highscreen/DE-101/blob/master/Module01/supersale_dashboard.png)
 
-### Идеи для создания дашборда отчета:
+1. Механизм построения можно оценить по исходному файлу:
 
-1. Overview (обзор ключевых метрик)
-1. Total Sales
-1. Total Profit
-1. Profit Ratio
-1. Profit per Order
-1. Sales per Customer
-1. Avg. Discount
-1. Monthly Sales by Segment ( табличка и график)
-1. Monthly Sales by Product Category (табличка и график)
-1. Product Dashboard (Продуктовые метрики)
-1. Sales by Product Category over time (Продажи по категориям)
-1. Customer Analysis
-1. Sales and Profit by Customer
-1. Customer Ranking
-1. Sales per region
-
-### Значения атрибутов в Sample - Superstore.xls
-
-| Название столбца | Значение                          |
-|------------------|-----------------------------------|
-| Row ID           | Идентификатор строки (уникальный) |
-| Order ID         | Идентификатор заказа              |
-| Order Date       | Дата заказа                       |
-| Ship Date        | Дата доставки                     |
-| Ship Mode        | Класс доставки                    |
-| Customer ID      | Идентификатор покупателя          |
-| Customer Name    | Имя и фамилия покупателя          |
-| Segment          | Сегмент покупателя                |
-| Country          | Страна                            |
-| City             | Город                             |
-| State            | Штат                              |
-| Postal Code      | Почтовый индекс                   |
-| Region           | Регион                            |
-| Product ID       | Идентификатор товара              |
-| Category         | Категория                         |
-| Sub-Category     | Подкатегория                      |
-| Product Name     | Название товара                   |
-| Sales            | Продажи (Доход)                   |
-| Quantity         | Количество                        |
-| Discount         | Скидка в %                        |
-| Profit           | Прибыль                           |
-| Person           | Региональный менеджер             |
-| Returned         | Возвраты товара                   |
-
-## Часть №4
-
-### Полезные материалы
-* [Алгоритм проектирования дашборда](https://youtu.be/xSp5ykKcQho) - общие правила проектирования высококачественных дашбордов
-* [Обзор дашборда|Гайд по BI](https://youtu.be/rxu8jmsvw98) - гайд по проектированию интерактивных отчетов в Excel (пример для superstore). 
-* [Пример отчета](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore%20-%20Dashboard.xlsx)
-* [Пошаговая инструкция](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/build_steps_dashboard.md)
+![Superstore_dashboard_lab](https://github.com/highscreen/DE-101/blob/master/Module01/Superstore_dashboard_lab.xslx)

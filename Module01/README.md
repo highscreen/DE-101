@@ -27,7 +27,8 @@
 1. Скачан и установлен Draw.io по [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20install%20drawio.md).
 
 
-1. ![Создана диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
+1. Создана диаграмма аналитического решения.
+![Диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
 
 ## Часть №3
 

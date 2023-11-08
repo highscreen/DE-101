@@ -14,11 +14,11 @@
 
 5. Устанавлен Visual Studio Code с официального сайта и склонирован собственный репозиторий на локальную машину по этой [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20get%20git.md)
 
-6. Результаты домашней работы загружены к git репозиторий. 
+6. Результаты домашней работы загружены в git репозиторий. 
 
 6. Склонирован репозиторий Datalearn со всеми Лабораторными работами в соседнюю папку, чтобы делать домашки без подключения к интернету.
 
-7. Изучен базовый синтаксис про MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/), резульат Лабоработной работы оформлен в файле readme.md.
+7. Изучен базовый синтаксис MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/), резульат Лабоработной работы оформлен в файле readme.md.
 
 ## Часть №2
 
@@ -27,7 +27,7 @@
 1. Скачан и установлен Draw.io по [инструкции](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20install%20drawio.md).
 
 
-1. !Создана диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
+1. ![Создана диаграмма аналитического решения.](https://github.com/highscreen/DE-101/blob/master/Module01/data_flow_architecture.drawio.png)
 
 ## Часть №3
 

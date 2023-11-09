@@ -21,8 +21,7 @@
 1. Изучен базовый синтаксис MarkDown на [официальном сайте](https://www.markdownguide.org/basic-syntax/). 
 
 1. Результат Лабоработной работы оформлен в файле readme.md.
-![Скриншот двойного окна в VSCode]
-(https://github.com/highscreen/DE-101/blob/master/Module01/lab_result/markdown_vscode.png)
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_result/markdown_vscode.png)
 
 
 ## Часть №2 Архитектура Аналитического Решения

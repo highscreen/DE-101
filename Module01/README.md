@@ -5,7 +5,6 @@
 1. Создан аккаунт в GitHub и репозиторий для обучения на курсе DataLearn.
 
 1. Созданы папки для Лабораторных работ по формату **DE-101/Module1/** для сохранения результатов.
-
 ![Репозиторий highscreee/de-101 создан.](https://github.com/highscreen/DE-101/blob/master/Module01/lab_result/github_repo.png)
 
 1. Пройден [Видео-курс по Git на русском](https://www.youtube.com/playlist?list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb).
@@ -34,7 +33,6 @@
 ## Часть №3 Аналитика в Excel
 
 1. Используя данные Sample - Superstore.xls собран дашборд по продажам
-
 ![Dashboard по продажам.](https://github.com/highscreen/DE-101/blob/master/Module01/lab_result/supersale_dashboard.PNG)
 
 1. Механизм построения можно оценить по исходному файлу [Superstore_dashboard_lab.xslx >>](https://github.com/highscreen/DE-101/blob/master/Module01/lab_result/Superstore_dashboard_lab.xlsx)

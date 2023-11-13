@@ -14,58 +14,48 @@
 
 1. Пройден курс по Оконным функциям SQL на [Stepik.org](https://stepik.org/course/95367/syllabus)
 
-1. Пройден тренажер по SQL на [Stepik.org](https://stepik.org/course/63054/syllabus)
+1. Пройден "Интерактивный тренажер по SQL" на [Stepik.org](https://stepik.org/course/63054/syllabus)
 
-1. Изучен курс по проектированию баз данных от "Технострим" на [Youtube.com](https://www.youtube.com/watch?v=-7sCE6ob70U&list=TLPQMDMxMTIwMjOVGmA_p3TQwQ)
+1. Пройден курс на [Stepik.org](https://stepik.org/course/136543/)
+
+1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
+
+1. Пройден тренажер "Базы данных и SQL. Задачи" на [Stepik.org](https://stepik.org/course/182226/)
 
 ### Часть 2: Подключение к Базам Данных и SQL
-
-**Видео лекция часть 1 - теория** - [Подключение к БД](https://youtu.be/nJsRJ5SytjI).
-
-**Видео лекция часть 2 - практика** - [Подключение к БД, загрузка данных в БД, SQL запросы ](https://youtu.be/nJsRJ5SytjI?t=657)
-
-### Дополнительные материалы для изучения
-
-1. [Интерактивный онлайн-курс по SQL СУБД PostgreSQL](https://learndb.ru/) (Русский)
-2. [Интерактивный SQL учебник с упражнениями](https://sql-ex.ru/) (Русский)
-3. [Основные функции SQL](https://khashtamov.com/ru/window-functions-sql/) (Русский)
-4. [Практика SQL](https://towardsdatascience.com/sqlzoo-the-best-way-to-practice-sql-66b7ccb1f17a) (English)
-5. [SQL: Analyzing Business Metrics](https://www.codecademy.com/learn/sql-analyzing-business-metrics) (English)
-6. [Analyze data with SQL](https://www.codecademy.com/learn/paths/analyze-data-with-sql) (English)
-7. [Большой курс SQL и Баз Данных от Stanford](https://www.edx.org/course/databases-5-sql) (English)
-8. [Интерактивный тренажер по SQL](https://stepik.org/course/63054/) (Русский)
-9. [Лучшие вопросы средней сложности по SQL на собеседовании аналитика данных](https://habr.com/ru/company/dcmiran/blog/500360/) (Русский)
 
 ## Практическая часть
 
 ### Часть №1 Установка ПО
 
 1. Установлен Docker по видео курсу [Установка Docker](https://www.youtube.com/watch?v=dNS61T4MmlM&list=PL0lO_mIqDDFX1c0JHogP5YuZdOVawoepS)
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
 1. Установлен PostgreSQL по инструкции [Установка Postgres на Docker](https://www.cloud4y.ru/blog/installing-and-configuring-postgre-sql/)
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
 1. Установлена программа [DBSchema](https://dbmstools.com/tools/dbschema) для проектирования базы данных.
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
 1. Установлен SQL-клиент [DBeaver](https://dbeaver.io/) для подключения базы данных. 
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
 1. Создайте 3 таблицы и загрузите данные из [Superstore Excel файл](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных.
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
 1. Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц. Вы можете использовать готовый [пример sql файлов](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1).
+![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
 
-1. Напишите запросы, чтобы ответить на вопросы из [Модуля 01](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1#%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%B2-excel). Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц.
+1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 
 ## 2.4: Модели Данных
 
-**Видео лекция часть 1 - теория** - [Модели Данных](https://youtu.be/Jwefn9G2I_g)
+### Теоретическая часть
 
-**Видео лекция часть 2 - практика** - [Создание модели данных в SQLdbm](https://youtu.be/Jwefn9G2I_g?t=1903)
+1. Прочитана статья про Хранилище Данных [Антихрупкость архитектуры хранилищ данных](https://habr.com/ru/post/281553/)
+1. Прочитана статья про Data Vault [Основы Data Vault](https://habr.com/ru/post/502968/)
 
-### Дополнительные материалы для изучения
-
-1. Статья про Хранилище Данных [Антихрупкость архитектуры хранилищ данных](https://habr.com/ru/post/281553/)
-2. Статья про Data Vault [Основы Data Vault](https://habr.com/ru/post/502968/)
-
-### Практика
+### Практиктическая часть
 
 1. Вам необходимо нарисовать модель данных для нашего файлика [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
@@ -122,16 +112,3 @@
 ### Практика
 
 В качестве домашнего задания вам необходимо создать дашборд в одном из решений, которые мы рассмотрели. ДЛя идей можно использовать задание из 1го модуля. Данные должны быть в Postgres в AWS и вы сможете подключиться сервисом к БД и создать несколько отчетов. Для практики можно и во всех 3х создать.
-
-# Опрос Модуль 2
-
-Пожалуйста пройдите [опрос по завершении Модуля 2](https://forms.gle/GX2jPuvBxDNXa5dU9). Так я смогу посмотреть, сколько человек закончило модуль, что было хорошо, а что можно улучшить.
-
-По окончанию модуля 2, вы можете расшарить значок `02 | DATABASE` в социальных сетях и рассказать о своих достижениях.
-
-![img](https://github.com/Data-Learn/data-engineering/blob/master/img/de101-module02.png)
-
-**PS Если материал оказался полезным, вы можете поддержать авторов через**
-Условная цена одного модуля 500р ;)
-
-[ЮMoney](https://yoomoney.ru/to/4100116864248269) или [Patreon](https://www.patreon.com/dmitryanoshin) или [Paypal](https://paypal.me/dmitryanoshin)

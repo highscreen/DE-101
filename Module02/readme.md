@@ -1,8 +1,8 @@
-# Модуль 2: Базы данных и SQL
+# Модуль 2: Базы данных, SQL и Облака
 
-## Теоретическая часть
+## Часть 1: Основы баз данных и Подключение к Базам Данных и SQL
 
-### Часть 1: Основы баз данных
+### Теоретическая часть
 
 1. Изучена серия видео-роликов по [Модулю №2 DataLearn](https://www.youtube.com/watch?v=GFgKx4XodMU&list=PLkcP_moW_BpOQUmtgSaw3XswlpeO5RYgA)
 
@@ -16,7 +16,7 @@
 
 1. Пройден тренажер "Базы данных и SQL. Задачи" на [Stepik.org](https://stepik.org/course/182226/)
 
-### Часть 2: Подключение к Базам Данных и SQL
+## Часть 2: 
 
 ## Практическая часть
 
@@ -44,7 +44,7 @@
 
 1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 
-## Часть 2: Модели Данных
+## Часть 2: Проектирование Модели данных
 
 ### Теоретическая часть
 
@@ -87,9 +87,7 @@
 
 ### Практическая часть
 
-1. Создана учетная запись в [VK Cloud](https://cloud.vk.com/). 
-
-Если вы запускаете сервис в Cloud, не забудьте его выключить или удалить, когда он не нужен, а то могут и денюшку списать.
+1. Создана учетная запись в [VK Cloud](https://cloud.vk.com/). Если вы запускаете сервис в Cloud, не забудьте его выключить или удалить, когда он не нужен, а то все деньги спишут, тк сервис платный в принципе.
 
 1. Создана и активирована БД Postgres (https://github.com/Data-Learn/data-engineering/blob/master/how-to/how_to_amazon_rds.md)
 
@@ -117,26 +115,27 @@
 
 1. Видео-лекция по визуализации данных в [Google Data Studio](https://vk.com/video-99936101_456240018) 
 
+1. Выбрать [бесплатную альтернативу](https://habr.com/ru/companies/ruvds/articles/536962/) сервису визуализации KlipFolio с подключением к БД Postgres.
+
 ### Практическая часть
 
-1. Создан дашборд в Google Data Studio 
+1. Создан дашборд в [Google Data Studio](https://lookerstudio.google.com/overview)
 
-В качестве домашнего задания вам необходимо создать дашборд в одном из решений, которые мы рассмотрели. ДЛя идей можно использовать задание из 1го модуля. Данные должны быть в Postgres в AWS и вы сможете подключиться сервисом к БД и создать несколько отчетов. Для практики можно и во всех 3х создать.
+1. Создан дашборд в [Infogram](https://infogram.com/).
 
 Идеи для создания дашборда отчета:
-
-Overview (обзор ключевых метрик)
-Total Sales
-Total Profit
-Profit Ratio
-Profit per Order
-Sales per Customer
-Avg. Discount
-Monthly Sales by Segment ( табличка и график)
-Monthly Sales by Product Category (табличка и график)
-Product Dashboard (Продуктовые метрики)
-Sales by Product Category over time (Продажи по категориям)
-Customer Analysis
-Sales and Profit by Customer
-Customer Ranking
-Sales per region
+    1. Обзор ключевых метрик
+        Total Sales
+        Total Profit
+        Profit Ratio
+        Profit per Order
+        Sales per Customer
+        Avg. Discount
+        Monthly Sales by Segment ( табличка и график)
+        Monthly Sales by Product Category (табличка и график)
+    1. Product Dashboard (Продуктовые метрики)
+        Sales by Product Category over time (Продажи по категориям)
+    1. Customer Analysis
+        Sales and Profit by Customer
+        Customer Ranking
+        Sales per region

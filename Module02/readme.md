@@ -16,7 +16,7 @@
 
 1. Пройден "Интерактивный тренажер по SQL" на [Stepik.org](https://stepik.org/course/63054/syllabus)
 
-1. Пройден курс на [Stepik.org](https://stepik.org/course/136543/)
+1. Пройден курс "Проектирование и разработка баз данных" на [Stepik.org](https://stepik.org/course/136543/)
 
 1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
 
@@ -29,10 +29,10 @@
 ### Часть №1 Установка ПО
 
 1. Установлен Docker по видео курсу [Установка Docker](https://www.youtube.com/watch?v=dNS61T4MmlM&list=PL0lO_mIqDDFX1c0JHogP5YuZdOVawoepS)
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+![Скриншот установки Docker](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/docker.PNG)
 
 1. Установлен PostgreSQL по инструкции [Установка Postgres на Docker](https://www.cloud4y.ru/blog/installing-and-configuring-postgre-sql/)
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+![Скриншот установки Postgres](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/postgres.PNG)
 
 1. Установлена программа [DBSchema](https://dbmstools.com/tools/dbschema) для проектирования базы данных.
 ![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)

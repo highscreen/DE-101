@@ -10,15 +10,9 @@
 
 1. Прочитана статья "Хранилище данных vs Озеро Данных" на [HABR](https://habr.com/ru/post/485180/)
 
-1. Пройден курс Проектирование баз данных на [Stepik.org](https://stepik.org/course/51675/syllabus)
-
 1. Пройден курс по Оконным функциям SQL на [Stepik.org](https://stepik.org/course/95367/syllabus)
 
 1. Пройден "Интерактивный тренажер по SQL" на [Stepik.org](https://stepik.org/course/63054/syllabus)
-
-1. Пройден курс "Проектирование и разработка баз данных" на [Stepik.org](https://stepik.org/course/136543/)
-
-1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
 
 1. Пройден тренажер "Базы данных и SQL. Задачи" на [Stepik.org](https://stepik.org/course/182226/)
 
@@ -50,12 +44,18 @@
 
 1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 
-## 2.4: Модели Данных
+## Часть 2: Модели Данных
 
 ### Теоретическая часть
 
 1. Прочитана статья про Хранилище Данных [Антихрупкость архитектуры хранилищ данных](https://habr.com/ru/post/281553/)
 1. Прочитана статья про Data Vault [Основы Data Vault](https://habr.com/ru/post/502968/)
+
+1. Пройден курс "Проектирование и разработка баз данных" на [Stepik.org](https://stepik.org/course/136543/)
+
+1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
+
+1. Пройден курс Проектирование баз данных на [Stepik.org](https://stepik.org/course/51675/syllabus)
 
 ### Практиктическая часть
 
@@ -64,53 +64,79 @@
 - Концептуальную
 - Логическую
 - Физическую
-  Вы можете использовать бесплатную версию [SqlDBM](https://sqldbm.com/Home/) или любой другой софт для создания моделей данных баз данных.
+
 
 2. Когда вы нарисуете модель данных, вам нужно скопировать DDL и выполнить его в SQL клиенте.
+
 3. Вам необходимо сделать `INSERT INTO SQL`, чтобы заполнить **Dimensions** таблицы и **Sales Fact** таблицу. Сначала мы заполняем **Dimensions** таблицы, где в качестве **id** мы генерим последовательность чисел, а зачем **Sales Fact** таблицу, в которую вставляем **id** из **Dimensions** таблиц. Такой пример я рассматривал в видео.
 
-## 2.5: База данных в облаке
+## Часть 3: База данных в облаке
 
-**Видео лекция часть 1 - теория** - [БД в облаке](https://youtu.be/UzILBlOAQ9s)
+### Теоретическая часть
 
-**Видео лекция часть 2 - практика** - [Создание Аналитической БД в облаке AWS](https://youtu.be/UzILBlOAQ9s?t=627)
+1. Видео лекция часть 1 [БД в облаке](https://youtu.be/UzILBlOAQ9s)
 
-### Дополнительные материалы для изучения
+1. Видео лекция часть 2 [Создание Аналитической БД в облаке Yandex Cloud, VK CLoud](https://youtu.be/UzILBlOAQ9s?t=627)
 
-Мы посвятим целый модуль облачным вычислениям. Но к сожалению, очень мало информации по сетевому администрированию, которую легко и быстро усвоить. Цель простая - нам необходимо, чтобы 2 и более сервера могли эффективно и безопасно коммуницировать между собой через сеть. Для этого нужно открыть/закрыть порты, настроить firewall и возможны другие действия. Вы можете поискать информацию.
+1. [Шпаргалка системного администратора по сетевым инструментам Linux](https://habr.com/ru/company/ruvds/blog/417485/) (Русский)
 
-1. Лекции на Coursera [Google IT Support Professional](https://www.coursera.org/professional-certificates/google-it-support) (English)
-2. [Шпаргалка системного администратора по сетевым инструментам Linux](https://habr.com/ru/company/ruvds/blog/417485/) (Русский)
+1. Документация по [Яндекс.Клауд](https://cloud.yandex.ru/docs)
 
-### Практика
+1. Документация по [VK Cloud](https://cloud.vk.com/docs)
 
-1. Вам необходимо [создать учетную запись в AWS](https://github.com/Data-Learn/data-engineering/blob/master/how-to/How%20to%20create%20AWS%20Account.md). Это бесплатно. Если вы запускаете сервис в AWS, не забудьте его удалить, когда он не нужен, а то могут и денюшку списать.
-2. Используя сервис AWS Lightsail или [AWS RDS (смотрите инструкцию)](https://github.com/Data-Learn/data-engineering/blob/master/how-to/how_to_amazon_rds.md) создайте БД Postgres и активируйте **Public access**
-3. Подключитесь к новой БД через SQL клиент (например DBeaver)
-4. Загрузите данные из модуля 2.3 (Superstore dataset) в staging (схема БД `stg`) и загрузите dimensional model (схема `dw`). Вы можете использовать мой пример SQL для этого упражнения:
+
+### Практическая часть
+
+1. Создана учетная запись в [VK Cloud](https://cloud.vk.com/). 
+
+Если вы запускаете сервис в Cloud, не забудьте его выключить или удалить, когда он не нужен, а то могут и денюшку списать.
+
+1. Создана и активирована БД Postgres (https://github.com/Data-Learn/data-engineering/blob/master/how-to/how_to_amazon_rds.md)
+
+1. Произведено подключение к новой БД через SQL клиент (например DBeaver)
+
+1. Создана схема .stg в БД Postgres на VK Cloud
+
+1. Загружена новая БД из модуля 2 части 2 (нормализованная Superstore) в staging (схема БД `stg`)
+
+1. Загружены dimensional model (схема `dw`). 
+
+Вы можете использовать мой пример SQL для этого упражнения:
 
 - Staging [stg.orders.sql](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/stg.orders.sql)
+
 - Business Layer [from_stg_to_dw.sql](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/from_stg_to_dw.sql)
 
-5. Попробуйте выполнить свои запросы из предыдущих упражнений. Не забудьте указать схему перед название таблицы. Например, `public.orders` или `stg.orders`.
+1. Попробуйте выполнить свои запросы из предыдущих упражнений. Не забудьте указать схему перед название таблицы. Например, `public.orders` или `stg.orders`.
 
-## 2.6: Как донести данные до бизнес-пользователя (Пример решений на KlipFolio, Google Sheets и пр.)
+## Часть 4: Визуализация данных Google Sheets, KlipFolio, Yandex DataLens
 
-**Видео лекция часть 1 - теория** - [Сервисы визуализации для базы данных](https://youtu.be/bqUtv1y3D7A)
+1. Видео лекция часть 1 [Сервисы визуализации для базы данных](https://youtu.be/bqUtv1y3D7A)
 
-**Видео лекция часть 2 - практика** - [Пример подключения к облачным сервисам](https://youtu.be/bqUtv1y3D7A?t=825)
+1. Видео лекция часть 2 [Пример подключения к облачным сервисам](https://youtu.be/bqUtv1y3D7A?t=825)
 
-### Дополнительные материалы для изучения
+1. Видео-лекция по визуализации данных в [Google Data Studio](https://vk.com/video-99936101_456240018) 
 
-Данная лекция знакомит вас с популярными сервисами для визуализации данных. По сути мы с вами создаем BI решение. Более детально мы рассмотрим про BI в модуле 3.
+### Практическая часть
 
-1. [Введение в Google Data Studio](https://analytics.google.com/analytics/academy/course/10) (English)
-2. [AWS QuickSight практика](https://docs.aws.amazon.com/quicksight/latest/user/getting-started.html) (English)
-3. [Klipfolio практика](https://www.klipfolio.com/blogs-and-tutorials) (English)
-4. [Пиратские метрики](https://vc.ru/trade/53154-piratskie-metriki-dlya-internet-magazina) (Русский)
-5. [AARRR воронка — модель «Пиратские метрики» + фреймворк AAARRR](https://leadstartup.ru/db/aarrr) (Русский)
-6. [Обзор книги «Lean Analytics»](https://gopractice.ru/lean_analytics/) (Русский)
-
-### Практика
+1. Создан дашборд в Google Data Studio 
 
 В качестве домашнего задания вам необходимо создать дашборд в одном из решений, которые мы рассмотрели. ДЛя идей можно использовать задание из 1го модуля. Данные должны быть в Postgres в AWS и вы сможете подключиться сервисом к БД и создать несколько отчетов. Для практики можно и во всех 3х создать.
+
+Идеи для создания дашборда отчета:
+
+Overview (обзор ключевых метрик)
+Total Sales
+Total Profit
+Profit Ratio
+Profit per Order
+Sales per Customer
+Avg. Discount
+Monthly Sales by Segment ( табличка и график)
+Monthly Sales by Product Category (табличка и график)
+Product Dashboard (Продуктовые метрики)
+Sales by Product Category over time (Продажи по категориям)
+Customer Analysis
+Sales and Profit by Customer
+Customer Ranking
+Sales per region

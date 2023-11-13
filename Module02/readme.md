@@ -40,15 +40,13 @@
 1. Установлен SQL-клиент [DBeaver](https://dbeaver.io/) для подключения базы данных. 
 ![Скриншот установки DBeaver](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/04_dbeaver.PNG)
 
-1. Созданы 3 таблицы и загружены данные из [Superstore Excel файл](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных.
+1. Созданы 3 таблицы и загружены данные в базу из [Superstore Excel файл.](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls)
 ![3 Таблицы заполнены данными](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/05_filled_tables.PNG)
 
 1. В GitHub сохранены скрипты загрузки данных и создания таблиц. 
     ![01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.PNG)
-
     ![02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.PNG)
-
-    ![02 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.PNG)
+    ![03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.PNG)
 
 1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 

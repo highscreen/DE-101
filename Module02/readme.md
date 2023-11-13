@@ -29,22 +29,26 @@
 ### Часть №1 Установка ПО
 
 1. Установлен Docker по видео курсу [Установка Docker](https://www.youtube.com/watch?v=dNS61T4MmlM&list=PL0lO_mIqDDFX1c0JHogP5YuZdOVawoepS)
-![Скриншот установки Docker](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/docker.PNG)
+![Скриншот установки Docker](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/01_docker.PNG)
 
 1. Установлен PostgreSQL по инструкции [Установка Postgres на Docker](https://www.cloud4y.ru/blog/installing-and-configuring-postgre-sql/)
-![Скриншот установки Postgres](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/postgres.PNG)
+![Скриншот установки Postgres](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/02_postgres.PNG)
 
 1. Установлена программа [DBSchema](https://dbmstools.com/tools/dbschema) для проектирования базы данных.
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+![Скриншот установки DBSchema](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/03_dbschema.PNG)
 
 1. Установлен SQL-клиент [DBeaver](https://dbeaver.io/) для подключения базы данных. 
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+![Скриншот установки DBeaver](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/04_dbeaver.PNG)
 
-1. Создайте 3 таблицы и загрузите данные из [Superstore Excel файл](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных.
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+1. Созданы 3 таблицы и загружены данные из [Superstore Excel файл](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls) в вашу базу данных.
+![3 Таблицы заполнены данными](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/05_filled_tables.PNG)
 
-1. Сохраните в вашем GitHub скрипт загрузки данных и создания таблиц. Вы можете использовать готовый [пример sql файлов](https://github.com/Data-Learn/data-engineering/tree/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1).
-![Скриншот двойного окна в VSCode](https://github.com/highscreen/DE-101/blob/master/Module01/lab_fact/markdown_vscode.png)
+1. В GitHub сохранены скрипты загрузки данных и создания таблиц. 
+    ![01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.PNG)
+
+    ![02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.PNG)
+
+    ![02 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.PNG)
 
 1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 

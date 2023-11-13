@@ -44,9 +44,9 @@
 ![3 Таблицы заполнены данными](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/05_filled_tables.png)
 
 1. В GitHub сохранены скрипты загрузки данных и создания таблиц. 
-    ![01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.sql)
-    ![02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.sql)
-    ![03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.sql)
+    1. ![01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.sql)
+    1. ![02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.sql)
+    1. ![03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.sql)
 
 1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
 

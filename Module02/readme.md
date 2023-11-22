@@ -41,8 +41,7 @@
     1. [01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.sql)
     1. [02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.sql)
     1. [03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.sql)
-
-1. Не вижу смысла тратить время на ответы на вопросы из [Модуля 01] по БД в текущем виде. 
+ 
 
 ## Часть 2: Проектирование Модели данных
 
@@ -59,15 +58,11 @@
 
 1. Просмотрен вебинар от Карпов.Курсы про Data Vault на [Youtube.com] (https://www.youtube.com/watch?v=fNGIOb8SJvU)
 
-1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
+1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/video_ext.php?oid=-221682666&id=456239032&hd=2)
 
 1. Пройден курс Проектирование баз данных на [Stepik.org](https://stepik.org/course/51675/syllabus)
 
-1. Пройден курс "Базы данных" от Технопарка на [Youtube.com] (https://www.youtube.com/watch?v=-7sCE6ob70U&list=TLPQMDMxMTIwMjOVGmA_p3TQwQ)
-
-1. Пройден курс по нотации UML на [Youtube.com] (https://www.youtube.com/watch?v=0I9aIP5gKCg&list=PLPPIc-4tm3YTw3FUu75jsW4QgrXopfXhX)
-
-1. Просмотрено видео по нотации UML на [Youtube.com] (https://www.youtube.com/watch?v=xNvnz7DNmVM)
+1. Пройден курс "Базы данных" от Клуба (Вне)системных аналитиков на [Youtube.com](https://www.youtube.com/watch?v=BdfIDxXhWLM&list=PLqjSjzX9B3nUZ_2CG-ugELY14zfPsE6OE)
 
 ### Практиктическая часть
 

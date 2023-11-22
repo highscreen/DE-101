@@ -51,22 +51,41 @@
 1. Прочитана статья про Хранилище Данных [Антихрупкость архитектуры хранилищ данных](https://habr.com/ru/post/281553/)
 1. Прочитана статья про Data Vault [Основы Data Vault](https://habr.com/ru/post/502968/)
 
+1. Просмотрено видео про Data Vault Часть 1 на [Youtube.com](https://www.youtube.com/watch?v=-ZgzpQXsxi0)
+
+1. Просмотрено видео про Data Vault Часть 2 на [Youtube.com](https://www.youtube.com/watch?v=IZw1cB1uDts)
+
 1. Пройден курс "Проектирование и разработка баз данных" на [Stepik.org](https://stepik.org/course/136543/)
+
+1. Просмотрен вебинар от Карпов.Курсы про Data Vault на [Youtube.com] (https://www.youtube.com/watch?v=fNGIOb8SJvU)
 
 1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/search?c%5Bq%5D=%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F&c%5Bsection%5D=auto&z=video-221682666_456239032)
 
 1. Пройден курс Проектирование баз данных на [Stepik.org](https://stepik.org/course/51675/syllabus)
 
+1. Пройден курс "Базы данных" от Технопарка на [Youtube.com] (https://www.youtube.com/watch?v=-7sCE6ob70U&list=TLPQMDMxMTIwMjOVGmA_p3TQwQ)
+
+1. Пройден курс по нотации UML на [Youtube.com] (https://www.youtube.com/watch?v=0I9aIP5gKCg&list=PLPPIc-4tm3YTw3FUu75jsW4QgrXopfXhX)
+
+1. Просмотрено видео по нотации UML на [Youtube.com] (https://www.youtube.com/watch?v=xNvnz7DNmVM)
+
 ### Практиктическая часть
 
-1. Вам необходимо нарисовать модель данных для нашего файлика [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
+1. Создана концептуальная схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
-- Концептуальную
-- Логическую
-- Физическую
+![Концептуальная схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/06_concept_scheme.PNG)
 
+1. Создана логическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
-2. Когда вы нарисуете модель данных, вам нужно скопировать DDL и выполнить его в SQL клиенте.
+![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/07_logic_scheme.PNG)
+
+1. Создана физическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
+
+![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
+
+1. DDL код скопирован и выполнене в SQL клиенте.
+
+![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
 
 3. Вам необходимо сделать `INSERT INTO SQL`, чтобы заполнить **Dimensions** таблицы и **Sales Fact** таблицу. Сначала мы заполняем **Dimensions** таблицы, где в качестве **id** мы генерим последовательность чисел, а зачем **Sales Fact** таблицу, в которую вставляем **id** из **Dimensions** таблиц. Такой пример я рассматривал в видео.
 

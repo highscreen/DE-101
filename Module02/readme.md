@@ -67,15 +67,12 @@
 ### Практическая часть
 
 1. Создана концептуальная схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
-
 ![Концептуальная схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/06_concept_scheme.PNG)
 
 1. Создана логическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
-
 ![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/07_logic_scheme.png)
 
 1. Создана физическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
-
 ![Физическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_physical_scheme.png)
 
 1. DDL Коды скопированы и сохранены
@@ -89,13 +86,10 @@
     1. [Таблица dim_products](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\08_dim_products.sql)
     1. [Таблица dim_category](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\09_dim_category.sql)
 
-
 1. Сохраненные коды для создания таблиц выполнены в SQL клиенте.
-
 ![Созданная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
 
 1. Таблица SuperSales разбита на подтаблицы и данные вставлены в созданную БД.
-
 ![Заполненная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
 
 ## Часть 3: Создание Базы данных в облаке

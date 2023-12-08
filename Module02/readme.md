@@ -72,11 +72,11 @@
 
 1. Создана логическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
-![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/07_logic_scheme.PNG)
+![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/07_logic_scheme.png)
 
 1. Создана физическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
-![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_physical_scheme.PNG)
+![Физическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_physical_scheme.png)
 
 1. DDL Коды скопированы и сохранены
     1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\01_dim_shipping.sql)

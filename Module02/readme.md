@@ -80,14 +80,14 @@
 
 1. DDL Коды скопированы и сохранены
     1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\01_dim_shipping.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\02_fct_sales.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\03_dim_customer.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\04_dim_segment.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\05_fct_return.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\06_dim_address.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\07_fct_orders.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\08_dim_products.sql)
-    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\09_dim_category.sql)
+    1. [Таблица fct_sales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\02_fct_sales.sql)
+    1. [Таблица dim_customer](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\03_dim_customer.sql)
+    1. [Таблица dim_segment](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\04_dim_segment.sql)
+    1. [Таблица fct_return](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\05_fct_return.sql)
+    1. [Таблица dim_address](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\06_dim_address.sql)
+    1. [Таблица fct_orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\07_fct_orders.sql)
+    1. [Таблица dim_products](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\08_dim_products.sql)
+    1. [Таблица dim_category](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\09_dim_category.sql)
 
 
 1. Сохраненные коды для создания таблиц выполнены в SQL клиенте.

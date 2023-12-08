@@ -38,9 +38,9 @@
 ![3 Таблицы заполнены данными](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/05_filled_tables.png)
 
 1. В GitHub сохранены скрипты загрузки данных и создания таблиц. 
-    1. [01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/01_orders.sql)
-    1. [02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/02_people.sql)
-    1. [03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/03_returns.sql)
+    1. [01 Скрипт загрузки orders](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/old_db/01_orders.sql)
+    1. [02 Скрипт загрузки people](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/old_db/02_people.sql)
+    1. [03 Скрипт загрузки returns](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts/old_db/03_returns.sql)
  
 
 ## Часть 2: Проектирование Модели данных
@@ -56,7 +56,7 @@
 
 1. Пройден курс "Проектирование и разработка баз данных" на [Stepik.org](https://stepik.org/course/136543/)
 
-1. Просмотрен вебинар от Карпов.Курсы про Data Vault на [Youtube.com] (https://www.youtube.com/watch?v=fNGIOb8SJvU)
+1. Просмотрен вебинар от Карпов.Курсы про Data Vault на [Youtube.com](https://www.youtube.com/watch?v=fNGIOb8SJvU)
 
 1. Лекция ТулГУ по нормализации на [VKVideo](https://vk.com/video_ext.php?oid=-221682666&id=456239032&hd=2)
 
@@ -64,7 +64,7 @@
 
 1. Пройден курс "Базы данных" от Клуба (Вне)системных аналитиков на [Youtube.com](https://www.youtube.com/watch?v=BdfIDxXhWLM&list=PLqjSjzX9B3nUZ_2CG-ugELY14zfPsE6OE)
 
-### Практиктическая часть
+### Практическая часть
 
 1. Создана концептуальная схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
@@ -76,15 +76,29 @@
 
 1. Создана физическая схема базы данных из файла [Superstore](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module01/DE%20-%20101%20Lab%201.1/Sample%20-%20Superstore.xls):
 
-![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
+![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_physical_scheme.PNG)
 
-1. DDL код скопирован и выполнене в SQL клиенте.
+1. DDL Коды скопированы и сохранены
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\01_dim_shipping.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\02_fct_sales.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\03_dim_customer.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\04_dim_segment.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\05_fct_return.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\06_dim_address.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\07_fct_orders.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\08_dim_products.sql)
+    1. [Таблица dim_shipping](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\09_dim_category.sql)
 
-![Логическая схема базы данных](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
 
-3. Вам необходимо сделать `INSERT INTO SQL`, чтобы заполнить **Dimensions** таблицы и **Sales Fact** таблицу. Сначала мы заполняем **Dimensions** таблицы, где в качестве **id** мы генерим последовательность чисел, а зачем **Sales Fact** таблицу, в которую вставляем **id** из **Dimensions** таблиц. Такой пример я рассматривал в видео.
+1. Сохраненные коды для создания таблиц выполнены в SQL клиенте.
 
-## Часть 3: База данных в облаке
+![Созданная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
+
+1. Таблица SuperSales разбита на подтаблицы и данные вставлены в созданную БД.
+
+![Заполненная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
+
+## Часть 3: Создание Базы данных в облаке
 
 ### Теоретическая часть
 

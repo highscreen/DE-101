@@ -87,7 +87,7 @@
     1. [Таблица dim_category](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/scripts\create_new_db\09_dim_category.sql)
 
 1. Сохраненные коды для создания таблиц выполнены в SQL клиенте.
-![Созданная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)
+![Созданная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/09_ddl_sql_done.png)
 
 1. Таблица SuperSales разбита на подтаблицы и данные вставлены в созданную БД.
 ![Заполненная БД SuperSales](https://github.com/highscreen/DE-101/blob/master/Module02/lab_fact/screenshots/08_phisic_scheme.PNG)

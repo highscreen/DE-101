@@ -1,7 +1,7 @@
 CREATE  TABLE superstore.fct_sales ( 
 	id                   integer DEFAULT nextval('superstore.fct_orders_id_seq'::regclass) NOT NULL  ,
 	order_id             varchar(24)  NOT NULL  ,
-	order_date           date  NOT NULL  ,
+	order_date           timestamp  NOT NULL  ,
 	customer_id          varchar(24)  NOT NULL  ,
 	ship_date            date  NOT NULL  ,
 	address_id           integer  NOT NULL  ,
@@ -9,6 +9,7 @@ CREATE  TABLE superstore.fct_sales (
 	revenue              money  NOT NULL  ,
 	order_discount       money  NOT NULL  ,
 	margin               money  NOT NULL  ,
+	basket_items         integer DEFAULT 0 NOT NULL  ,
 	CONSTRAINT pk_orders PRIMARY KEY ( id ),
 	CONSTRAINT unq_orders_order_id UNIQUE ( order_id ) 
  );
@@ -42,3 +43,5 @@ COMMENT ON COLUMN superstore.fct_sales.revenue IS 'Выручка за весь 
 COMMENT ON COLUMN superstore.fct_sales.order_discount IS 'Скидка по всему заказу';
 
 COMMENT ON COLUMN superstore.fct_sales.margin IS 'Прибыль за весь заказ';
+
+COMMENT ON COLUMN superstore.fct_sales.basket_items IS 'Количество товаров в корзине';

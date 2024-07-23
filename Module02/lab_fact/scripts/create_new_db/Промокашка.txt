@@ -1,0 +1,35 @@
+set datestyle to 'ISO, MDY';
+INSERT INTO orders(Row_ID,Order_ID) VALUES (1,'CA-2018-152156');
+
+
+ALTER TABLE superstore.dim_address ALTER column postal_code TYPE varchar(10);
+
+select * from superstore.dim_address;
+
+ALTER TABLE superstore.dim_address ALTER column postal_code TYPE varchar(10);
+
+
+insert into table superstore.dim_address(address_id,country) values (
+
+
+ALTER TABLE superstore.fct_return ALTER column return_ind TYPE bool;
+
+ALTER TABLE superstore.fct_return ALTER COLUMN return_ind TYPE boolean USING return_ind::boolean;
+
+
+ALTER TABLE superstore.fct_return ALTER COLUMN return_ind DROP DEFAULT;
+ALTER TABLE superstore.fct_return ALTER return_ind TYPE bool USING return_ind::boolean;
+ALTER table superstore.fct_return ALTER COLUMN return_ind SET DEFAULT FALSE;
+
+
+ALTER TABLE superstore.fct_return DROP COLUMN return_ind;
+
+ALTER TABLE superstore.fct_return ADD COLUMN return_ind boolean;
+
+=СЦЕПИТЬ($A$2;B2;", ";"'";C2;"'";", ";D2;");")
+
+
+ALTER TABLE superstore.dim_customer ADD COLUMN customer_surname varchar(100);
+
+
+

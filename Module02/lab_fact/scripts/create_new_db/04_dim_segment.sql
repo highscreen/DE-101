@@ -13,3 +13,8 @@ COMMENT ON COLUMN superstore.dim_segment.id IS 'ИД записи';
 COMMENT ON COLUMN superstore.dim_segment.segment_id IS 'ИД сегмента';
 
 COMMENT ON COLUMN superstore.dim_segment.segment_name IS 'Наименование сегмента';
+
+
+insert into superstore.dim_segment(segment_name, segment_id) values ('Consumer', 1);
+insert into superstore.dim_segment(segment_name, segment_id) values ('Corporate', 2);
+insert into superstore.dim_segment(segment_name, segment_id) values ('Home Office', 3);
